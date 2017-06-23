@@ -56,7 +56,7 @@ GEM
       data_objects (= 0.10.14)
     fastercsv (1.5.5)
     jsmin (1.0.1)
-    json (1.8.1)
+    json (1.8.6)
     json_pure (1.8.1)
     multi_json (1.8.4)
     rack (1.5.2)
@@ -64,7 +64,6 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.3.2)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -96,10 +95,13 @@ DEPENDENCIES
   datamapper
   dm-migrations
   dm-sqlite-adapter
+  json (= 1.8.6)
   rack
-  rake
   sinatra
   sinatra-assetpack
   sinatra-contrib
   sinatra-flash
   sinatra-static-assets
+
+BUNDLED WITH
+   1.14.6
